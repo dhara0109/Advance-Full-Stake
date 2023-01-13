@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Week-1</title>
+    <script src="https://unpkg.com/react@18.2.0/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+</head>
+<body>
+    <div  id="root-1">
+       <!-- <div id="root-2">
+        <h2>WEEK-1 Project</h2>      
+       </div>  -->
+    </div>
+    <script type="text/babel">
+        // const element = React.creatElement('div', {id: root-2},
+        //                 React.creatElement('h2', null, 'WEEK-1 Project'));
+        const element = (
+            <div id="root-2">
+                <h2>WEEK-1 Project</h2>
+            </div>
+        );
+        ReactDOM.render(element, document.getElementById("root-1"));
+    </script>
+</body>
+</html>
